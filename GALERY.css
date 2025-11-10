@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f9fb;
+    margin: 16px;
+    color: #111;
+}
+
+h1 {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 22px;
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.video-card {
+    background: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.04);
+    margin-bottom: 20px;
+}
+
+video {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 8px;
+}
